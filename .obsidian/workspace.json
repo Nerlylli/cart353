@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "fc366fd46700908d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fac3fbc79cdf697f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f09bf579bdd8cad7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png"
+              },
+              "icon": "lucide-image",
+              "title": "Art of hiding it"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ae86c8221c88475",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2efd692ba3603fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e574e488c15492ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "35c706c7fc9b9e4e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "51661b2722d39393",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "307ab596321382e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b673c564807b6c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94d1dbe32bfc1dee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "53949b5106663921",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "be450693ce996d62",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f6ef4933329f2615",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7f863a3a1e13b140",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e574e488c15492ca",
+  "lastOpenFiles": [
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Hierarchy.png",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+    "What It Feels Like For a Girl/NOTES FOR GAME.md",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB",
+    "Untitled.md",
+    "What It Feels Like For a Girl",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Patriarchy pressure.png"
+  ]
+}
