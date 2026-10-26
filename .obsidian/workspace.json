@@ -11,10 +11,14 @@
             "id": "69e779f2a4aa0bd6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "What It Feels Like For a Girl/GAMEPLAY.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "GAMEPLAY"
             }
           }
         ]
@@ -183,12 +187,14 @@
   },
   "active": "69e779f2a4aa0bd6",
   "lastOpenFiles": [
-    "What It Feels Like For a Girl/GAMEPLAY.md",
     "What It Feels Like For a Girl/NOTES FOR GAME.md",
-    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+    "What It Feels Like For a Girl/GAMEPLAY.md",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Patriarchy pressure.png",
     "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Hierarchy.png",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/euphoria-fuck-anyone-whos-not-a-sea-blob-2021.pdf",
+    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Art of hiding it.png",
+    "What It Feels Like For a Girl/BlenderBuilds/RefPics/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
     "What It Feels Like For a Girl/EUPHORIA, FAWNSB",
-    "What It Feels Like For a Girl",
-    "What It Feels Like For a Girl/EUPHORIA, FAWNSB/Patriarchy pressure.png"
+    "What It Feels Like For a Girl"
   ]
 }
