@@ -52,7 +52,7 @@ window.onload = function () {
         }
     });
 }
-
+// DIARY POPUP
 // working calendar
 // code from: https://www.javascriptfreecode.com/36.htm
 monthnames = new Array(
@@ -180,3 +180,35 @@ function updateTime() {
 setInterval(updateTime, 1000);
 // current date at the time we run the function
 updateTime();
+
+// CONTACT POPUP
+const contactIds = ["astrid", "dad", "mom", "bff"];
+
+document.addEventListener("keydown", function (event) {
+
+    //will only work if the window is open
+    if (window.location.hash !== "#popup2") return;
+
+    let current = contactIds.findIndex(id =>
+        document.getElementById(id).checked
+    );
+
+    if (current === -1) return;
+
+    // ArrowRight Next
+    if (event.key === "ArrowRight") {
+        event.preventDefault();
+
+        current = (current + 1) % contactIds.length;
+        document.getElementById(contactIds[current]).checked = true;
+    }
+
+    // ArrowLeft = Previous
+    if (event.key === "ArrowLeft") {
+        event.preventDefault();
+
+        current = (current - 1 + contactIds.length) % contactIds.length;
+        document.getElementById(contactIds[current]).checked = true;
+    }
+
+});
