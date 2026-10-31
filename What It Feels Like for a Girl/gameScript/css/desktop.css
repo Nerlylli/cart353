@@ -264,4 +264,134 @@ input[type=submit] {
 
 /* whatsapp */
 /* phone */
+.C_background {
+    height: 565px;
+    width: 685px;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    background: url(/assets/images/story/brain.jpg);
+    /*  */
+}
+
+.C_background2 {
+    height: 540px;
+    width: 663px;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    background: url(/assets/images/story/pinkGalaxy.jpg);
+    background-size: cover;
+}
+
+/* INFORMATION */
+.profile-screen {
+    height: 90%;
+    width: 95%;
+    /* height: calc(100% - 100px);
+        width: calc(100% - 100px); */
+    top: 4.5%;
+    left: 2.25%;
+    position: absolute;
+    background-color: rgba(225, 107, 166, 0.5);
+    border: 2px solid rgba(225, 107, 166, 0.7);
+    /* transform: translate(-50%, -50%);
+        border: dashed;
+        border-color: rgba(255, 255, 255, 0.4); */
+}
+
+.profile-info {
+    position: absolute;
+    top: 18%;
+    left: 47%;
+    width: 47%;
+}
+
+.name {
+    margin: 0 0 13px;
+    font-size: clamp(19px, 3.5vw, 32px);
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-shadow: 1px 2px 2px rgba(248, 246, 248, 0.3);
+    color: black;
+}
+
+.title {
+    margin: 15px 0 3px;
+    font-size: clamp(15px, 2.6vw, 23px);
+    letter-spacing: 1px;
+    color: black;
+    text-shadow: 1px 1px 1px pink;
+}
+
+.description {
+    margin: 0;
+    font-size: clamp(13px, 2.7vw, 21px);
+    line-height: 1.2;
+    color: black;
+}
+
+/* arrow buttons */
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 0px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.arrow:hover {
+    background: rgb(198, 89, 143);
+}
+
+.arrow.left {
+    right: 517px;
+}
+
+.arrow.right {
+    left: 260px;
+}
+
+.arrow span {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+}
+
+.arrow.left span {
+    border-right: 18px solid white;
+}
+
+.arrow.right span {
+    border-left: 18px solid white;
+}
+
+/* score */
+.score {
+    position: absolute;
+    bottom: 5px;
+    bottom: 5%;
+    left: 7%;
+    color: white;
+    width: 38%;
+    min-height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background: rgba(32, 25, 31, .88);
+    font-size: clamp(12px, 2.3vw, 18px);
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 4;
+}
+
+
 /* messages */

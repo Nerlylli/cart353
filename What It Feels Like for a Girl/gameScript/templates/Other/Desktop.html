@@ -149,9 +149,9 @@
             </div>
 
             <!-- WhatsApp popup -->
-            <div id="popup2" class="overlay">
+            <!-- <div id="popup2" class="overlay">
                 <div class="popup" id="popup_dragger">
-                    <!-- draggable="true" -->
+
                     <div class="window">
                         <div class="title-bar">
                             <div class="title-bar-text">WhatsApp
@@ -162,15 +162,53 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Phone popup -->
-            <div id="popup3" class="overlay">
+            <div id="popup2" class="overlay">
                 <div class="popup" id="popup_dragger">
                     <!-- draggable="true" -->
                     <div class="window">
                         <div class="title-bar">
                             <div class="title-bar-text">Contacts
+                                <div class="C_background">
+                                    <div class="C_background2">
+                                        <div class="profile-screen">
+                                            <div class="profile-info">
+                                                <section id="Astrid">
+                                                    <button class="arrow left" alias-name="Previous">
+                                                        <span></span>
+                                                    </button>
+                                                    <h1 class="name">Enemy「Astrid」</h1>
+                                                    <h2 class="title">☆Interests☆</h2>
+                                                    <p class="description">
+                                                        TBA
+                                                    </p>
+                                                    <h2 class="title">☆Favorite food☆</h2>
+                                                    <p class="description">TBA</p>
+
+                                                    <a href="#Dad">
+                                                        <button class="arrow right" alias-name="Next">
+                                                            <span></span>
+                                                        </button>
+                                                    </a>
+                                                </section>
+
+                                                <section id="Dad" class="overlay">
+                                                    <h1 class="name">Dad「Alix Fleurimond」</h1>
+                                                    <h2 class="title">☆Interests☆</h2>
+                                                    <p class="description">
+                                                        TBA
+                                                    </p>
+                                                    <h2 class="title">☆Favorite food☆</h2>
+                                                    <p class="description">TBA</p>
+                                                </section>
+                                            </div>
+
+                                            <div class=" score">SCORE [0]</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="title-bar-controls">
                                 <a href="#"><button aria-label="Close"></button></a>
@@ -180,12 +218,13 @@
                 </div>
             </div>
             <!-- Messages popup -->
-            <div id="popup4" class="overlay">
+            <!-- <div id="popup4" class="overlay">
                 <div class="popup" id="popup_dragger">
-                    <!-- draggable="true" -->
                     <div class="window">
                         <div class="title-bar">
                             <div class="title-bar-text">Messages
+                    when clicking on it, a message page pops up on top of the phone. First, it shows the people that messages were had with,
+                    and then when you click, it shows the messages shared with the chosen person
                             </div>
                             <div class="title-bar-controls">
                                 <a href="#"><button aria-label="Close"></button></a>
@@ -193,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </section>
         </div>
@@ -211,14 +250,13 @@
                 </div>
             </div>
             <div class="bottom-border">
-                <a href="#popup3">
+                <a href="#popup2">
                     <img class="clickable" src="/assets/images/story/icons/phone.jpg"
                         style="height: 60px;width: 60px; position: absolute;left: 25px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;"></a>
-                <img class="clickable" src="/assets/images/story/icons/safari.jpg"
+                <img src="/assets/images/story/icons/safari.jpg"
                     style="height: 60px;width: 60px; position: absolute;left: 105px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
-                <a href="#popup4">
-                    <img class="clickable" src="/assets/images/story/icons/messages.jpg"
-                        style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;"></a>
+                <img class="clickable" src="/assets/images/story/icons/messages.jpg"
+                    style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
             </div>
             <div class="apps">
                 <div class="clickable" alt="diary">
@@ -230,10 +268,9 @@
                 </div>
                 <div class="clickable" alt="whatsapp">
                     <p style="position:absolute;right: 191.5px; top: 225px;">Whatsapp</p>
-                    <a href="#popup2">
-                        <img src="/assets/images/story/icons/whatsapp.png"
-                            style="height:80px;width: 80px;position: absolute;top: 155px;right: 180px;">
-                    </a>
+
+                    <img src="/assets/images/story/icons/whatsapp.png"
+                        style="height:80px;width: 80px;position: absolute;top: 155px;right: 180px;">
                 </div>
             </div>
         </section>

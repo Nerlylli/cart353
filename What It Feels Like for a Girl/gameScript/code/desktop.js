@@ -4,7 +4,7 @@ window.onload = function () {
     // const popup = document.querySelector("#popup_dragger");
 
     const popups = document.querySelectorAll(
-        "#popup1, #popup2, #popup3, #popup4"
+        "#popup1, #popup2"
     );
     popups.forEach((popup) => {
         let relativeX = 0;
