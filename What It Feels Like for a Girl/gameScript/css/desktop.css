@@ -62,7 +62,7 @@
     height: 600px;
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
-    width: 100px;
+    width: 700px;
 }
 
 .top {
@@ -163,7 +163,7 @@ input[type=submit] {
 .title-bar {
     align-items: center;
     /* background: linear-gradient(90deg, navy, #1084d0); */
-    background: linear-gradient(90deg, rgb(128, 0, 124), #d010c6);
+    background: linear-gradient(90deg, #d010a0, rgb(208, 126, 186));
     display: flex;
     justify-content: space-between;
     padding: 3px 2px 3px 3px
@@ -190,4 +190,65 @@ input[type=submit] {
     background-position: top 3px left 4px;
     background-repeat: no-repeat;
     margin-left: 2px
+}
+
+/* diary */
+.background {
+    height: 565px;
+    width: 685px;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(244,
+            184,
+            218);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.background2 {
+    height: 540px;
+    width: 663px;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(253,
+            228,
+            242);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.diary {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    position: absolute;
+    margin: 10px;
+}
+
+.info {
+    background: url(/assets/images/story/galaxy.jpg);
+    background-size: cover;
+    height: 520px;
+    width: 250px;
+    left: 0px;
+}
+
+.entries {
+    background: url(/assets/images/story/paper.jpg);
+    background-size: cover;
+    height: 520px;
+    width: 370px;
+    right: 0px;
+}
+
+.entry {
+    background-color: rgba(220,
+            171,
+            255, 0.5);
+    position: absolute;
+    padding: 10px 50px;
+    border: 1px solid rgb(220,
+            171,
+            255);
+    border-style: inset;
 }
