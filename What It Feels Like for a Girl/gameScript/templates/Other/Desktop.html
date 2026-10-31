@@ -10,25 +10,21 @@
 </head>
 
 <body>
-
     <main class="Page">
-        <section class="desktop">
-            <!-- not sure about the desktop part -->
-        </section>
-
-        <section class="browser">
+        <section class="browser" id="browser_back">
             <div id="popup1" class="overlay">
-                <div class="popup">
-                    <div class="window"
-                        style="width: 600px; font-size: 1.125em; box-shadow: inset 1px 1px #dfdfdf, inset -1px 0 grey, inset 2px 0 #fff !important; position: relative; left:1rem;">
+                <div class="popup" id="popup_dragger">
+                    <!-- draggable="true" -->
+                    <div class="window">
                         <div class="title-bar">
-                            <div class="title-bar-text">My diary</div>
+                            <div class="title-bar-text">Diary</div>
                             <div class="title-bar-controls">
                                 <a href="#"><button aria-label="Close"></button></a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         </div>
 
@@ -37,7 +33,6 @@
                 style="position: absolute; height: 675px;right: 25px; top: 50px; ">
             <div class="top-border">
                 <p style="position: absolute;right: 30px;top: -2.5px;">ᯤ</p>
-                <!-- make the time working in live, rework the positioning -->
                 <p style="position: absolute;left: 10px;">20:12</p>
                 <p style="position:absolute;rotate: 90deg;right: 10px;">🔋</p>
             </div>
