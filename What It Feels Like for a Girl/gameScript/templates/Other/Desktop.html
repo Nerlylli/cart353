@@ -4,11 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game </title>
+    <title>Desktop & Phone</title>
     <link rel="stylesheet" href="/css/desktop.css">
+    <script src="/code/desktop.js" defer></script>
 </head>
 
 <body>
+
+    <main class="Page">
+        <section class="browser">
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <div class="top">
+                        <a href="#"><button class="close" aria-label="Close"
+                                style="position: absolute; right: 10px; top: 1em;">✖</button></a>
+                    </div>
+                    <div class="window"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phone">
+            <img src="/assets/images/story/phone.png" style="position: absolute; height: 675px;right: 25px; top: 5px; ">
+            <div class="top-border">
+                <p style="position: absolute;right: 30px;top: -2.5px;">ᯤ</p>
+                <p style="position: absolute;left: 10px;">20:12</p>
+                <p style="position:absolute;rotate: 90deg;right: 10px;">🔋</p>
+            </div>
+            <div class="bottom-border">
+
+                <img class="clickable" src="/assets/images/story/icons/phone.jpg"
+                    style="height: 60px;width: 60px; position: absolute;left: 25px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
+
+                <img class="clickable" src="/assets/images/story/icons/safari.jpg"
+                    style="height: 60px;width: 60px; position: absolute;left: 105px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
+                <img class="clickable" src="/assets/images/story/icons/messages.jpg"
+                    style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
+            </div>
+            <div class="apps">
+                <div class="clickable" alt="diary">
+                    <p style="position:absolute;right: 280px; top: 180px;">Diary</p>
+                    <a href="#popup1">
+                        <img src="/assets/images/story/icons/diary.png"
+                            style="height:61px;width: 61px;position: absolute;top: 120px;right: 265px;">
+                    </a>
+                </div>
+                <div class="clickable" alt="whatsapp">
+                    <p style="position:absolute;right: 191.5px; top: 180px;">Whatsapp</p>
+                    <img src="/assets/images/story/icons/whatsapp.png"
+                        style="height:80px;width: 80px;position: absolute;top: 110px;right: 180px;">
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
