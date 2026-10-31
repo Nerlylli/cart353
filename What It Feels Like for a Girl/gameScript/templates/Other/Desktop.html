@@ -7,6 +7,8 @@
     <title>Desktop & Phone</title>
     <link rel="stylesheet" href="/css/desktop.css">
     <script src="/code/desktop.js" defer></script>
+    <!-- found through tutorial -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
 </head>
 
 <body>
@@ -15,14 +17,25 @@
         <section class="browser">
             <div id="popup1" class="overlay">
                 <div class="popup">
-                    <div class="top">
-                        <a href="#"><button class="close" aria-label="Close"
-                                style="position: absolute; right: 10px; top: 1em;">✖</button></a>
+                    <div class="window"
+                        style="width: 225px; font-size: 1.125em; box-shadow: inset 1px 1px #dfdfdf, inset -1px 0 grey, inset 2px 0 #fff !important; position: relative; left:1rem;">
+                        <div class="title-bar">
+                            <div class="title-bar-text">Diary</div>
+                            <div class="title-bar-controls">
+                                <a href="#"><button aria-label="Close"></button></a>
+
+
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="window"></div>
                 </div>
-            </div>
         </section>
+
+
+        </div>
+
+
 
         <section class="phone">
             <img src="/assets/images/story/phone.png" style="position: absolute; height: 675px;right: 25px; top: 5px; ">

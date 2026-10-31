@@ -79,12 +79,12 @@
     height: 25px;
     border: 1px solid black;
     border-style: outset;
-    color: white;
-    background: red;
+    color: black;
+    background: grey;
     position: absolute;
 }
 
 .close:hover {
-    background: rgb(255, 59, 59);
+    background: rgb(203, 202, 202);
     cursor: pointer;
 }
