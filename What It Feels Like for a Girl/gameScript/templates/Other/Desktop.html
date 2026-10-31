@@ -14,6 +14,7 @@
 <body>
     <main class="Page">
         <section class="browser" id="browser_back">
+            <!-- diary -->
             <div id="popup1" class="overlay">
                 <div class="popup" id="popup_dragger">
                     <!-- draggable="true" -->
@@ -146,6 +147,54 @@
                     </div>
                 </div>
             </div>
+
+            <!-- WhatsApp popup -->
+            <div id="popup2" class="overlay">
+                <div class="popup" id="popup_dragger">
+                    <!-- draggable="true" -->
+                    <div class="window">
+                        <div class="title-bar">
+                            <div class="title-bar-text">WhatsApp
+                            </div>
+                            <div class="title-bar-controls">
+                                <a href="#"><button aria-label="Close"></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone popup -->
+            <div id="popup3" class="overlay">
+                <div class="popup" id="popup_dragger">
+                    <!-- draggable="true" -->
+                    <div class="window">
+                        <div class="title-bar">
+                            <div class="title-bar-text">Contacts
+                            </div>
+                            <div class="title-bar-controls">
+                                <a href="#"><button aria-label="Close"></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Messages popup -->
+            <div id="popup4" class="overlay">
+                <div class="popup" id="popup_dragger">
+                    <!-- draggable="true" -->
+                    <div class="window">
+                        <div class="title-bar">
+                            <div class="title-bar-text">Messages
+                            </div>
+                            <div class="title-bar-controls">
+                                <a href="#"><button aria-label="Close"></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         </div>
 
@@ -153,16 +202,23 @@
             <img src="/assets/images/story/phone.png" style="position: absolute; height: 675px;right: 25px; top: 50px;">
             <div class="top-border">
                 <p style="position: absolute;right: 30px;top: -2.5px;">ᯤ</p>
-                <p style="position: absolute;left: 10px;">20:12</p>
                 <p style="position:absolute;rotate: 90deg;right: 10px;">🔋</p>
+                <!-- working time -->
+                <div class="clock">
+                    <span id="hours">00</span>
+                    <span>:</span>
+                    <span id="minutes">00</span>
+                </div>
             </div>
             <div class="bottom-border">
-                <img class="clickable" src="/assets/images/story/icons/phone.jpg"
-                    style="height: 60px;width: 60px; position: absolute;left: 25px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
+                <a href="#popup3">
+                    <img class="clickable" src="/assets/images/story/icons/phone.jpg"
+                        style="height: 60px;width: 60px; position: absolute;left: 25px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;"></a>
                 <img class="clickable" src="/assets/images/story/icons/safari.jpg"
                     style="height: 60px;width: 60px; position: absolute;left: 105px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
-                <img class="clickable" src="/assets/images/story/icons/messages.jpg"
-                    style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
+                <a href="#popup4">
+                    <img class="clickable" src="/assets/images/story/icons/messages.jpg"
+                        style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;"></a>
             </div>
             <div class="apps">
                 <div class="clickable" alt="diary">
@@ -174,8 +230,10 @@
                 </div>
                 <div class="clickable" alt="whatsapp">
                     <p style="position:absolute;right: 191.5px; top: 225px;">Whatsapp</p>
-                    <img src="/assets/images/story/icons/whatsapp.png"
-                        style="height:80px;width: 80px;position: absolute;top: 155px;right: 180px;">
+                    <a href="#popup2">
+                        <img src="/assets/images/story/icons/whatsapp.png"
+                            style="height:80px;width: 80px;position: absolute;top: 155px;right: 180px;">
+                    </a>
                 </div>
             </div>
         </section>
