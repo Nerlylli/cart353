@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(/assets/images/story/Lace.jpg);
+    background: url(assets/images/story/Lace.jpg);
     color: #222;
     font-family: Arial;
     font-size: 12px
@@ -236,7 +236,7 @@ input[type=submit] {
 }
 
 .info {
-    background: url(/assets/images/story/galaxy.jpg);
+    background: url(assets/images/story/galaxy.jpg);
     background-size: cover;
     height: 520px;
     width: 250px;
@@ -244,7 +244,7 @@ input[type=submit] {
 }
 
 .entries {
-    background: url(/assets/images/story/paper.jpg);
+    background: url(assets/images/story/paper.jpg);
     background-size: cover;
     height: 520px;
     width: 370px;
@@ -271,7 +271,7 @@ input[type=submit] {
     margin: 10px;
     position: absolute;
     left: 0px;
-    background: url(/assets/images/story/brain.jpg);
+    background: url(assets/images/story/brain.jpg);
     /*  */
 }
 
