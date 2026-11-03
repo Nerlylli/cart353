@@ -10,6 +10,17 @@ body {
     font-size: 12px
 }
 
+
+/* CASE */
+.case {
+    background: white;
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 90%;
+    bottom: 800px;
+}
+
 /* TOP BORDER */
 .top-border {
     height: 20px;
@@ -34,7 +45,7 @@ body {
     width: 270px;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    bottom: 180px;
+    top: 550px;
     right: 55px;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 25px;
