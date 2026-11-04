@@ -7,7 +7,8 @@ body {
     background: url(../assets/images/story/Lace.jpg);
     color: #222;
     font-family: Arial;
-    font-size: 12px
+    font-size: 12px;
+    overflow: hidden;
 }
 
 
@@ -18,7 +19,7 @@ body {
     width: 10%;
     position: relative;
     left: 90%;
-    bottom: 800px;
+    bottom: 825px;
 }
 
 /* TOP BORDER */
@@ -376,10 +377,4 @@ input[type=submit] {
     z-index: 4;
 }
 
-
 /* messages */
-
-/* DESKTOP */
-.folder:hover {
-    background-color: pink;
-}
