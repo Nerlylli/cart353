@@ -1,0 +1,10 @@
+.text p {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.name p {
+    position: absolute;
+    margin-top: 10px;
+}
