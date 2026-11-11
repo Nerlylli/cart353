@@ -1,7 +1,12 @@
+* {
+    overflow: hidden;
+}
+
 .text p {
     position: absolute;
     top: 25px;
     left: 10px;
+
 }
 
 .name p {

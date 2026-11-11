@@ -18,8 +18,8 @@ body {
     height: 10%;
     width: 10%;
     position: relative;
-    left: 90%;
-    bottom: 825px;
+    left: 87%;
+    bottom: 810px;
 }
 
 /* TOP BORDER */
@@ -64,7 +64,6 @@ body {
     left: 0;
     /* background: blue; */
 }
-
 
 .overlay {
     position: absolute;
