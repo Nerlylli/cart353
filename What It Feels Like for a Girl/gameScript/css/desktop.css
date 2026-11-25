@@ -342,7 +342,7 @@ input[type=submit] {
 }
 
 .title {
-    margin: 15px 25px 3px;
+    margin: 15px 30px 3px;
     font-size: clamp(15px, 2.6vw, 23px);
     letter-spacing: 1px;
     color: black;
@@ -350,7 +350,7 @@ input[type=submit] {
 }
 
 .description {
-    margin: 0 25px 0;
+    margin: 0 35px 0;
     font-size: clamp(13px, 2.7vw, 21px);
     color: black;
 }
@@ -358,11 +358,10 @@ input[type=submit] {
 /* score */
 .score {
     position: absolute;
-    bottom: 5px;
-    bottom: 5%;
-    left: 7%;
+    bottom: 1.5%;
+    left: 2.5%;
     color: white;
-    width: 38%;
+    width: 45%;
     min-height: 11%;
     display: flex;
     align-items: center;
