@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/desktop.css">
     <script src="../code/popup.js" defer></script>
     <script src="../code/game.js" defer></script>
+    <script src="../code/diary.js" defer></script>
 
 </head>
 
@@ -42,6 +43,22 @@
                                 <section class="background">
                                     <div class="background2">
                                         <div class="diary info">
+
+                                            <!-- stickers -->
+                                            <img src="../assets/images/story/flowers.png"
+                                                style="position: absolute; height: 20%; width: 30%; top: 5%; left: 60%;">
+                                            <img src="../assets/images/story/postal.png"
+                                                style="position: absolute; height: 40%; width: 50%; top: 15%; left: 25%;">
+                                            <img src="../assets/images/story/glitterBun.png"
+                                                style="position: absolute; height: 20%; width: 30%; top: 15%; left: 60%; rotate: 5deg;">
+                                            <img src="../assets/images/story/starsPink.png"
+                                                style="position: absolute; height: 50%; width: 50%; top: 2.5%; left: 10%;">
+                                            <img src="../assets/images/story/kitty.png"
+                                                style="position: absolute; height: 20%; width: 30%; top: 5%; left: 10%; rotate: -15deg;">
+                                            <img src="../assets/images/story/helloKitty.png"
+                                                style="position: absolute; height: 20%; width: 30%; top: 5%; left: 30%;">
+
+                                            <!-- buttons -->
                                             <button class="entry" style="left: 40px;top: 270px;">entry
                                                 #1</button><br>
                                             <button class="entry" style="left: 40px;top: 310px;">entry
@@ -57,15 +74,12 @@
                                             <!-- <button class="entry" style="left: 40px;top: 470px;">entry
                                                 #7</button><br> -->
                                         </div>
+                                        <!-- diary entries -->
                                         <div class="diary entries">
                                             <div
                                                 style="position: absolute; background:transparent; height: 86%; width: 81%; left: 9.5%; top: 7.5%;">
-
-                                                <p class="entry1"
-                                                    style="color: black; text-shadow: 1px 2px 5px hotpink; 
-                                                    font-family: Finger Paint, sans-serif; font-size: 13px; margin-top: 1.5%; line-height: 1.7;">
-                                                    Dear diary,
-                                                    When I was younger, I wanted to live on the moon. I imagined myself
+                                                <p id="entry1" alt-title="The Moon" data-message="Dear diary,
+                                                    when I was younger, I wanted to live on the moon. I imagined myself
                                                     becoming a princess astronaut as an adult, and
                                                     traveling through the galaxy. I would be the first woman to ever
                                                     step foot on every single planet in the Milky Way, and the first
@@ -82,15 +96,31 @@
                                                     I hate the moon, it only shows up when it’s dark outside. It
                                                     leaves
                                                     me all alone with my thoughts. If I ever become an
-                                                    astronaut, I’m not setting foot on that planet.</p>
+                                                    astronaut, I’m not setting foot on that planet.">
+
                                             </div>
 
-                                            <p class="entry2"></p>
-                                            <p class="entry3"></p>
-                                            <p class="entry4"></p>
-                                            <p class="entry5"></p>
-                                            <p class="entry6"></p>
-                                            <p class="entry7"></p>
+                                            <p id="entry2" alt-title="" data-message=""></p>
+                                            <p id="entry3" alt-title="Wheel of Fortune"
+                                                data-message="Dear diary, my mother said that falling in love with a man is like a gamble. You either get the fortune or the curse. I wanted to ask her which one she think she got, but I feel like I already know the answer.. and she’d probably go crazy if she had to reflect on who she chose to spend her life with… <br>
+My mom is always working, always tired, always bitter, always complaining, always on edge— mostly because of the cards she’s been dealt with, I know that. Yet, she’s always telling me that some of the things I do makes me non-marriage material, and that if I don’t change my ways, I’ll never get to have the life she has. I hope she’s right. When I fall in love, I’ll make sure that my wheel of fortune is only filled with lucky and luckier choices. ">
+                                            </p>
+                                            <p id="entry4" alt-title="The Fool"
+                                                data-message="Dear diary, 
+Am I a fool for wanting to start over again even though my parents have given me everything anyone could ask for? I mean, I go to a private school, I live in a suburban two-parent household, I am fed, clothed, and yet.. It always feels like something is missing. <br>
+As a kid, my mom used to always yell at me, and she hit me quite a few times, even though,  she denies it. My dad hasn’t really done anything, and that’s the issue. <br>
+I wanna leave. Leave my my family, my home, my town and start over again. <br>
+Am I fool for wanting to take a leap of faith? Am I risking too much? Am I a fool for wanting more? I don’t mind being a fool. I am meant for more. ">
+                                            </p>
+                                            <p id="entry5" alt-title="Death"
+                                                data-message="	Dear diary,
+I think a part of my mom has died ever since she found out that dad had been cheating on her. She believed me right away, saying it wasn’t the first time he’s done it, but it was so long ago, she thought he had changed. <br>
+I thought she was going to leave him. She’d think “I have to set an example for my daughter. I don’t want her to grow up thinking that being treated this way is acceptable. I have to leave.” But she didn’t. She swept it under the rug, and hasn’t even brought it up to him. <br>
+What is she so scared of that makes it so hard for her to accept change? She’s holding onto him for dear life, and for what? If she’d let their relationships die, I think it would be better for all of us. Out with the old, in with the new. <br>
+I’m talking about her in a mean way, but I feel for her. I know what it’s like to love someone so hard that you lose yourself over time — I got it trait from her. I’m more like her than I like to admit, and I hate it.">
+                                            </p>
+                                            <p id="entry6" alt-title="Six of Swords" data-message=""></p>
+                                            <p id="entry7" alt-title="" data-message=""></p>
                                         </div>
                                         <div alt="rings">
                                             <img src="../assets/images/story/rings.png"
@@ -228,25 +258,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Messages popup -->
-            <!-- <div id="popup4" class="overlay">
-                <div class="popup" id="popup_dragger">
-                    <div class="window">
-                        <div class="title-bar">
-                            <div class="title-bar-text">
-                                Messages
-                                when clicking on it, a message page pops up on top of the phone. First, it shows the
-                                people that messages were had with,
-                                and then when you click, it shows the messages shared with the chosen person
-                            </div>
-                            <div class="title-bar-controls">
-                                <a href="#"><button aria-label="Close"></button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
         </section>
         </div>
 
@@ -270,8 +281,8 @@
                     <img src="../assets/images/story/icons/safari.jpg"
                         style="height: 60px;width: 60px; position: absolute;left: 105px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
 
-                    <a href="#popup4">
-                        <img class="clickable" src="../assets/images/story/icons/messages.jpg"
+                    <a>
+                        <img src="../assets/images/story/icons/messages.jpg"
                             style="height: 60px;width: 60px; position: absolute;left: 185px; bottom: 2px; border: 2px solid rgba(0,0,0,0);border-radius: 15px;">
                     </a>
                 </div>
@@ -283,7 +294,7 @@
                                 style="height:61px;width: 61px;position: absolute;top: 165px;right: 265px;">
                         </a>
                     </div>
-                    <div class="clickable" alt="whatsapp">
+                    <div alt="whatsapp">
                         <p style="position:absolute;right: 191.5px; top: 225px;">Whatsapp</p>
 
                         <img src="../assets/images/story/icons/whatsapp.png"

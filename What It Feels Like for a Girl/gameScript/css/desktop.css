@@ -240,6 +240,20 @@ input[type=submit] {
     border-radius: 5px;
 }
 
+.diary1 p,
+.diary2 p,
+.diary3 p,
+.diary4 p,
+.diary5 p,
+.diary6 p {
+    color: black;
+    text-shadow: 1px 2px 5px hotpink;
+    font-family: Finger Paint, sans-serif;
+    font-size: 13px;
+    margin-top: 1.5%;
+    line-height: 1.7;
+}
+
 .diary {
     border: 1px solid rgba(0, 0, 0, 0.4);
     position: absolute;
