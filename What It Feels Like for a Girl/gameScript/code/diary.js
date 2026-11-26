@@ -1,29 +1,32 @@
-const player = new Audio();
-const dot = document.querySelector('.dot');
+// const player = new Audio();
+// const dot = document.querySelector('.dot');
 
 document.addEventListener('DOMContentLoaded', () => {
-    const vinyls = document.querySelectorAll('.vinyl');
-    const paper = document.querySelector('.paper');
-    const player = new Audio();
-    const dot = document.querySelector('.dot');
+    const entries = document.querySelectorAll('.entry');
+    const diaryEntries = document.querySelector('.diaryEntries');
+    // const player = new Audio();
+    // const dot = document.querySelector('.dot');
 
-    //Initial message, before music plays
-    paper.innerHTML = `<p>CLICK ON A SONG!</p>`;
+    entries.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const entry = document.querySelector(`#entry${index + 1}`);
 
-    vinyls.forEach(vinyl => {
-        vinyl.addEventListener('click', () => {
-            const audioFile = vinyl.getAttribute('data-audio');
-            const message = vinyl.getAttribute('data-message');
+            if (!entry) return;
 
-            //When the person clicks on a song(vinyl), the message on the paper change depending on the song that was clicked
-            paper.innerHTML = `<p>${message}</p>`;
+            const message = entry.getAttribute('data-message');
+            const title = entry.getAttribute('alt-title');
 
-            if (player.src !== audioFile) {
-                player.src = audioFile;
-                player.play();
-            } else {
-                player.paused ? player.play() : player.pause();
-            }
+            // entryContent.innerHTML = `
+            //     <p>${message}</p>
+            // `;
+
+            entryContent.innerHTML = `
+                    <p class="diary-message">${message}</p>
+`;
         });
     });
 });
+
+//Initial message, before music plays
+// paper.innerHTML = `<p>CLICK ON A SONG!</p>`;
+
