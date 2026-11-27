@@ -14,7 +14,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../css/desktop.css">
     <script src="../code/popup.js" defer></script>
-    <script src="../code/game.js" defer></script>
+    <script src="../code/background.js" defer></script>
     <script src="../code/diary.js" defer></script>
 
 </head>
@@ -24,7 +24,16 @@
         <section class="game">
             <div id="game-container">
                 <div id="room">
+                    <!-- background -->
                     <img id="background" src="../assets/images/rooms/HOME/bedroom/Pro_Bedroom.png">
+                    <!-- room objects -->
+
+                    <img class="roomObjects" id="door" src="../assets/images/rooms/HOME/bedroom/IMGs/door.png"
+                        onclick="openLivingArea()"> <!-- bedroom door -->
+                    <img class="roomObjects" id="livingDoor" src="../assets/images/rooms/HOME/livingspace/halfDoor.png"
+                        style="display: none;">
+                    <!-- living area door -->
+
 
                 </div>
             </div>
