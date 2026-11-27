@@ -7,15 +7,24 @@
     <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
     <meta name="ProgId" content="FrontPage.Editor.Document">
     <title>Desktop & Phone</title>
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- specific fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Finger+Paint&family=Henny+Penny&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Swanky+and+Moo+Moo&display=swap"
+        rel="stylesheet">
+
+    <!-- ref to other files -->
     <link rel="stylesheet" href="../css/desktop.css">
     <script src="../code/popup.js" defer></script>
     <script src="../code/background.js" defer></script>
     <script src="../code/diary.js" defer></script>
+    <script src="../code/game.js" defer></script>
+
 
 </head>
 
@@ -23,11 +32,13 @@
     <main class="Page">
         <section class="game">
             <div id="game-container">
+
                 <div id="room">
                     <!-- background -->
                     <img id="background" src="../assets/images/rooms/HOME/bedroom/Pro_Bedroom.png">
-                    <!-- room objects -->
 
+                    <div></div>
+                    <!-- room objects -->
                     <img class="roomObjects" id="door" src="../assets/images/rooms/HOME/bedroom/IMGs/door.png"
                         onclick="openLivingArea()"> <!-- bedroom door -->
                     <img class="roomObjects" id="livingDoor" src="../assets/images/rooms/HOME/livingspace/halfDoor.png"
@@ -35,6 +46,19 @@
                     <!-- living area door -->
 
 
+                </div>
+                <!-- dialogue box -->
+                <div class="dialogue">
+                    <h4>hello</h4>
+                    <div class="previous">
+                        <h5>PREVIOUS</h5>
+                    </div>
+                    <div class="help">
+                        <h5>HELP</h5>
+                    </div>
+                </div>
+                <div class="sName">
+                    <h5></h5>
                 </div>
             </div>
 
@@ -113,7 +137,7 @@
 
                                             <p id="entry2" alt-title="" data-message=""></p>
                                             <p id="entry3" alt-title="Wheel of Fortune"
-                                                data-message="Dear diary, my mother said that falling in love with a man is like a gamble. You either get the fortune or the curse. I wanted to ask her which one she think she got, but I feel like I already know the answer.. and she’d probably go crazy if she had to reflect on who she chose to spend her life with… 
+                                                data-message="Dear diary, my mother said that falling in love with a man is like a gamble. You either get the fortune or the doom. I wanted to ask her which one she think she got, but I feel like I already know the answer.. and she’d probably go crazy if she had to reflect on who she chose to spend her life with… 
 My mom is always working, always tired, always bitter, always complaining, always on edge— mostly because of the cards she’s been dealt with, I know that. Yet, she’s always telling me that some of the things I do makes me non-marriage material, and that if I don’t change my ways, I’ll never get to have the life she has. I hope she’s right. When I fall in love, I’ll make sure that my wheel of fortune is only filled with lucky and luckier choices. ">
                                             </p>
                                             <p id="entry4" alt-title="The Fool"
