@@ -52,3 +52,25 @@ window.onload = function () {
         }
     });
 }
+
+// tutorial : https://www.youtube.com/watch?v=-v36WcbDs9k
+function updateTime() {
+    const now = new Date();
+
+    console.log(now);
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+
+    hours = hours % 24
+    hours = hours ? hours : 24
+
+    hours = hours < 10 ? "0" + hours : hours;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+}
+
+setInterval(updateTime, 1000);
+// current date at the time we run the function
+updateTime();

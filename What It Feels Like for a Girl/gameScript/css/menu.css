@@ -89,13 +89,13 @@ body {
 /* MENU BUTTONS */
 /* positions */
 .play {
-    top: 320px;
+    top: 480px;
     left: 27px;
 
 }
 
 .settings {
-    top: 480px;
+    top: 640px;
     left: 75px;
 
 }
