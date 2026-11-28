@@ -59,13 +59,24 @@ function changeRoom(roomIndex) {
     livingDoor.style.display = currentRoom === 1 ? "block" : "none";
 }
 
-door.addEventListener("click", function () {
+// door.addEventListener("click", function () {
+//     if (currentRoom === 0) {
+//         changeRoom(1);
+
+//         startDialogue(livingDialogues);
+//     }
+// });
+
+// bedroom door leads to the living area
+function openLivingArea() {
     if (currentRoom === 0) {
         changeRoom(1);
-
-        startDialogue(livingDialogues);
     }
-});
+
+    window.location.href = "#livingArea";
+    startDialogue(livingDialogues);
+
+}
 
 document.addEventListener("keydown", function (event) {
     if (event.target.matches("input, textarea, select")) {
@@ -95,7 +106,3 @@ background.onload = function () {
 // background.src = rooms[currentRoom].image;
 window.addEventListener("resize", updateCamera);
 
-// bedroom door leads to the living area
-function openLivingArea() {
-    window.location.href = "#livingArea"
-}

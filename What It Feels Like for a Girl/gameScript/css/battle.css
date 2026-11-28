@@ -1,0 +1,63 @@
+/* ROUND ONE */
+.roundOne {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[alt="theFool"],
+[alt="fiveOfCups"],
+[alt=tenOfWands] {
+    position: absolute;
+    cursor: pointer;
+}
+
+[alt="theFool"]:hover,
+[alt="fiveOfCups"]:hover,
+[alt=tenOfWands]:hover {
+    transform: translateY(10px);
+}
+
+[alt="theFool"] {
+    width: 250px;
+    height: auto;
+    right: 146px;
+    top: 0px;
+}
+
+[alt="fiveOfCups"] {
+    width: 250px;
+    height: auto;
+    right: -105px;
+    top: 0px;
+}
+
+[alt=tenOfWands] {
+    width: 325px;
+    height: auto;
+    right: -395px;
+    top: -80px;
+}
+
+.tarot-card {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+
+    all: unset;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ROUND TWO */
+/* ROUND THREE */

@@ -76,6 +76,10 @@ function nextDialogue() {
 
         if (dialogues === livingDialogues) {
             unlockDiary();
+            showRoundOne();
+            // showRoundTwo();
+            // showRoundThree();
+
         }
     }
 }
@@ -154,3 +158,51 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 startDialogue(bedDialogues);
+
+// BATTLE
+let playerPoints = 0;
+let hasChosenCard = false;
+
+// card choice
+function chooseCard(choice) {
+
+    if (hasChosenCard) return;
+
+    hasChosenCard = true;
+
+    // PLAYER'S CHOICE
+    if (choice === "fool") {
+        playerPoints += 2;
+    }
+
+    else if (choice === "cups") {
+        playerPoints += 1;
+    }
+
+    else if (choice === "wands") {
+        playerPoints -= 1;
+    }
+
+    console.log("Player points:", playerPoints);
+}
+
+
+// round one
+function showRoundOne() {
+    const roundOne = document.querySelector(".roundOne")
+    roundOne.style.display = "flex"
+
+    hasChosenCard = false;
+    playerPoints = 0;
+}
+// round two
+// function showRoundTwo() {
+//     const roundOne = document.querySelector("roundTwo")
+//     roundOne.style.display = "flex"
+// }
+// // round three
+// function showRoundThree() {
+//     const roundOne = document.querySelector(roundThree")
+//     roundOne.style.display = "flex"
+// }
+

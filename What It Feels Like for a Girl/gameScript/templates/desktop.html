@@ -22,12 +22,12 @@
     <!-- styling -->
     <link rel="stylesheet" href="../css/desktop.css">
     <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/battle.css">
     <!-- java -->
     <script src="../code/popup.js" defer></script>
     <script src="../code/background.js" defer></script>
     <script src="../code/diary.js" defer></script>
     <script src="../code/bed_dialogue.js" defer></script>
-    <script src="../code/living_dialogue.js" defer></script>
     <script src="../code/living_dialogue.js" defer></script>
     <script src="../code/dialogue.js" defer></script>
 </head>
@@ -47,7 +47,7 @@
                         onclick="openLivingArea()"> <!-- bedroom door -->
                     <img class="roomObjects" id="livingDoor" src="../assets/images/rooms/HOME/livingspace/halfDoor.png"
                         style="display: none;">
-                    <!-- living area door -->
+
 
 
                 </div>
@@ -61,6 +61,35 @@
                         <h5 id="speakerName"></h5>
                     </div>
                 </div>
+
+                <!-- battle -->
+                <div alt="battle">
+                    <div class="roundOne" style=display:none;>
+
+                        <button class="tarot-card" type="button" onclick="chooseCard('fool')">
+                            <img alt="theFool" src="../assets/images/battles/mom/Fool.png">
+                        </button>
+
+                        <button class="tarot-card" type="button" onclick="chooseCard('cups')">
+                            <img alt="tenOfWands" src="../assets/images/battles/mom/tenOfWands.png">
+                        </button>
+
+                        <button class="tarot-card" type="button" onclick="chooseCard('wands')">
+                            <img alt="fiveOfCups" src="../assets/images/battles/mom/fiveOfCups.png">
+                        </button>
+                    </div>
+                    <div class="roundTwo" style=display:none;>
+                        <img alt="wheelOfFortune_R" src="../assets/images/battles/mom/wheelOfFortune_R.png">
+                        <img alt="death" src="../assets/images/battles/mom/death.png">
+                        <img alt="sixOfSwords_R" src="../assets/images/battles/mom/sixOfSwords_R.png">
+                    </div>
+                    <div class="roundThree" style="display:none">
+                        <img alt="tower" src="../assets/images/battles/mom/Tower.png">
+                        <img alt="moon" src="../assets/images/battles/mom/Moon.png">
+                        <img alt="sixOfSwords" src="../assets/images/battles/mom/sixOfSwords.png">
+                    </div>
+                </div>
+
             </div>
 
             </div>
