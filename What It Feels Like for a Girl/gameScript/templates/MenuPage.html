@@ -6,21 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Page</title>
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/desktop.css">
+    <link rel="stylesheet" href="../css/popup.css">
 </head>
 
 <body>
     <main class=" WIFLG">
+        <div id="popup3" class="over_lay">
+            <div>
+                <div
+                    style=" background: #ff69b4; border: 3px solid hotpink; box-shadow: 0 0 15px #fff, 0 0 25px #ff00ff, inset 0 0 10px #fff; width: 500px; padding: 30px; border-radius: 10px; text-align: center;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px">
+                    GAMEPLAY INSTRUCTIONS
+                    <div style="max-height: 100px;  margin-bottom: 20px; padding: 10px;border-radius: 5px;">
+                        <p style="text-align: justify;">Click on your right and left keys to navigate the rooms.<br>
+                            When wanting to change rooms, click on the door. <br>
+                            Whenever a battle occurs, look for hints in order to win them.
+                        </p>
+                        <div>
+                            <a class=" ok" href="MenuPage.html">OK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="screen">
             <a href="desktop.html">
                 <button class="play" style="position: absolute; z-index: 1;">PLAY</button>
             </a>
 
-            <a href="visualNovel.html">
+            <a href="#popup3">
                 <button class="settings" style="position: absolute; z-index: 1;">GAMEPLAY</button>
             </a>
-
-            <button class="exit" style="position: absolute; z-index: 1;">EXIT GAME</button>
+            <!-- <button class="exit" style="position: absolute; z-index: 1;">EXIT GAME</button> -->
 
             <!-- IMAGES -->
             <!-- left-corner -->
@@ -41,13 +58,6 @@
             <img class="unicorn" src="../assets/images/story/unicorn.png"
                 style="height: 65%;width: 30%;position:absolute;left:50%; top: 30%; rotate: 15deg;">
         </section>
-
-        <!-- AUDIO TO PLAY WHEN OPENING WINDOW -->
-        <!-- <nav>
-            <audio control autoplay loop>
-                <source src="">
-            </audio>
-        </nav> -->
 
     </main>
 
