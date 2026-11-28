@@ -18,15 +18,18 @@
         href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Swanky+and+Moo+Moo&display=swap"
         rel="stylesheet">
 
-    <!-- ref to other files -->
+    <!-- REF TO OTHER FILES -->
+    <!-- styling -->
     <link rel="stylesheet" href="../css/desktop.css">
     <link rel="stylesheet" href="../css/popup.css">
+    <!-- java -->
     <script src="../code/popup.js" defer></script>
     <script src="../code/background.js" defer></script>
     <script src="../code/diary.js" defer></script>
-    <script src="../code/game.js" defer></script>
-
-
+    <script src="../code/bed_dialogue.js" defer></script>
+    <script src="../code/living_dialogue.js" defer></script>
+    <script src="../code/living_dialogue.js" defer></script>
+    <script src="../code/dialogue.js" defer></script>
 </head>
 
 <body>
@@ -49,12 +52,14 @@
 
                 </div>
                 <!-- dialogue box -->
-                <div class="dialogue">
-                    <h4 id="dialogueText"></h4>
-                </div>
-                <!-- names -->
-                <div class="sName">
-                    <h5 id="speakerName"></h5>
+                <div id="dialogueUI">
+                    <div class="dialogue">
+                        <h4 id="dialogueText"></h4>
+                    </div>
+                    <!-- names -->
+                    <div class="sName">
+                        <h5 id="speakerName"></h5>
+                    </div>
                 </div>
             </div>
 

@@ -147,6 +147,10 @@ body {
     border-radius: 20px;
 }
 
+#dialogueUI {
+    display: block;
+}
+
 .previous {
     position: absolute;
     top: 90%;

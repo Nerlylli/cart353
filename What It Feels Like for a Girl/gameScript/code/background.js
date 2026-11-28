@@ -62,6 +62,8 @@ function changeRoom(roomIndex) {
 door.addEventListener("click", function () {
     if (currentRoom === 0) {
         changeRoom(1);
+
+        startDialogue(livingDialogues);
     }
 });
 
