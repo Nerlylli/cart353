@@ -188,6 +188,12 @@ input[type=submit] {
 }
 
 /* diary */
+#diaryButton.locked {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .background {
     height: 565px;
     width: 685px;

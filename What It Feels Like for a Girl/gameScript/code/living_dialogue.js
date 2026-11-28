@@ -205,19 +205,6 @@ const livingDialogues = [
         text: "Oh. My. Gawd."
     },
     {
-        speaker: "MOM",
-        text: "Just wait until you fall in love, you won’t be so quick to criticize me anymore."
-    },
-    {
-        speaker: "ME",
-        text: "I’m not falling in love with someone like dad, so I'll think I'll be fine."
-    },
-    {
-        speaker: "MOM",
-        text: "*ROLLS EYES*"
-    },
-
-    {
         speaker: "ME",
         text: "Just listen to me."
     },
@@ -232,5 +219,18 @@ const livingDialogues = [
     {
         speaker: "ME",
         text: "You can choose to reject this life. "
+    },
+    {
+        speaker: "MOM",
+        text: "Just wait until you fall in love, you won’t be so quick to criticize me anymore."
+    },
+
+    {
+        speaker: "ME",
+        text: "I’m not falling in love with someone like dad, so I'll think I'll be fine."
+    },
+    {
+        speaker: "MOM",
+        text: "*ROLLS EYES*"
     },
 ]

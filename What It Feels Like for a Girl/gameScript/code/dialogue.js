@@ -15,6 +15,14 @@ let isTyping = false;
 let dialogues = [];
 let currentDialogue = 0;
 
+function unlockDiary() {
+
+    const diaryButton = document.getElementById("diaryButton");
+
+    diaryButton.classList.remove("locked");
+
+}
+
 
 // display
 function showDialogue() {
@@ -66,6 +74,9 @@ function nextDialogue() {
 
         hideDialogue();
 
+        if (dialogues === livingDialogues) {
+            unlockDiary();
+        }
     }
 }
 
@@ -131,6 +142,14 @@ document.addEventListener("keydown", function (event) {
         }
 
     }
+
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const diaryButton = document.getElementById("diaryButton");
+
+    diaryButton.classList.add("locked");
 
 });
 
